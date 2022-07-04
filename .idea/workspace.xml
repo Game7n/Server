@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a0fe423-b5cc-4f14-8c05-5307218e3fe2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/server/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/dir/file.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/server/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/server/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/nikit/workspace/EduUMIBackend",
+    "last_opened_file_path": "C:/Users/nikit/workspace/server",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"

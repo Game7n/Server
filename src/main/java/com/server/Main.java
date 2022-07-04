@@ -33,7 +33,7 @@ public class Main {
              PrintWriter output = new PrintWriter(socket.getOutputStream());
         ) {
 
-            while (!input.ready()) ;
+            //while (!input.ready());
 
             String firstLine = input.readLine();
             String[] parts = firstLine.split(" ");
@@ -51,18 +51,19 @@ public class Main {
                 output.println("<h1>file not found<h1>");
                 output.flush();
                 return;
+            }else {
+                output.println("HTTP/1.1 200 OK");
+                output.println("Content-Type: text/html; charset=utf-8");
+                output.println();
+                Files.newBufferedReader(path).transferTo(output);
+                output.flush();
             }
-            output.println("HTTP/1.1 200 OK");
-            output.println("Content-Type: text/html; charset=utf-8");
-            output.println();
-            Files.newBufferedReader(path).transferTo(output);
-            output.flush();
 
-//                        output.println("HTTP/1.1 200 OK");
-//                        output.println("Content-Type: text/html; charset=utf-8");
-//                        output.println();
-//                        output.println("<h1>Hello world!<h1>");
-//                        output.flush();
+                        output.println("HTTP/1.1 200 OK");
+                        output.println("Content-Type: text/html; charset=utf-8");
+                        output.println();
+                        output.println("<h1>Hello world!<h1>");
+                        output.flush();
 
 
         } catch (IOException e) {
